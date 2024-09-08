@@ -104,7 +104,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* src/Register.css */
 
 body {
   font-family: 'Arial', sans-serif;
@@ -261,7 +260,6 @@ strong {
   background-color: #0b7dda;
 }
 
-/* Right Side: Calendly Widget Section */
 .dashboard-right {
   flex: 1;
   padding: 20px;
@@ -275,14 +273,12 @@ strong {
   color: #333;
 }
 
-/* Calendly Widget */
 .calendly-inline-widget {
   width: 100%;
   height: 700px;
   min-width: 320px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .dashboard-wrapper {
     flex-direction: column;
