@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getMentors } from '../api';  // Import the getMentors API function
+import { getMentors } from '../api'; 
 import './mentors.css'
 const Mentors = () => {
   const [mentors, setMentors] = useState([]);
@@ -7,11 +7,10 @@ const Mentors = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch mentors from the backend
     const fetchMentors = async () => {
       try {
         const data = await getMentors();
-        setMentors(data);  // Set mentors list from the API response
+        setMentors(data);  
       } catch (err) {
         setError('Failed to fetch mentors');
         console.error(err);
@@ -43,7 +42,7 @@ const Mentors = () => {
               <h2>Name: {mentor.name}</h2>
               <p>Email: {mentor.email}</p>
               <p>Phone Number: {mentor.number}</p>
-              {/* You can add more fields as necessary */}
+              
             </div>
           ))
         )}
