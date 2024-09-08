@@ -1,0 +1,301 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard-container {
+  background-color:rgb(240, 225, 225);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.section1,
+.section3,
+.section4,
+.section5 {
+  margin-bottom: 20px;
+}
+
+.section1 h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section1 p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.section3,
+.section4 {
+  display: flex;
+  justify-content: center;
+}
+
+.section3 button,
+.section4 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #386283;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section3 button:hover,
+.section4 button:hover {
+  background-color: #45a049;
+}
+
+.section5 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.section5 br {
+  margin-bottom: 5px;
+}
+
+/* src/Register.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #547dbc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(205, 60, 60, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.heading{
+  font-size: 30px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f8f6f6;
+  background-color: #1a1f25;
+  /* color: black; */
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.dashboard-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Left Side: User Details Section */
+.dashboard-left {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.dashboard-left h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-details {
+  margin-bottom: 20px;
+}
+
+.user-details p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+strong {
+  color: #555;
+}
+
+.meeting-section {
+  margin-bottom: 20px;
+}
+
+.select-date-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.select-date-btn:hover {
+  background-color: #45a049;
+}
+
+.meeting-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+.start-meeting-btn {
+  margin-top: 20px;
+}
+
+.start-meeting-btn button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-meeting-btn button:hover {
+  background-color: #0b7dda;
+}
+
+/* Right Side: Calendly Widget Section */
+.dashboard-right {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.dashboard-right h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Calendly Widget */
+.calendly-inline-widget {
+  width: 100%;
+  height: 700px;
+  min-width: 320px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-wrapper {
+    flex-direction: column;
+  }
+
+  .dashboard-left, .dashboard-right {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+.mainwala{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}

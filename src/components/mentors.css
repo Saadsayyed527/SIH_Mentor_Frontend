@@ -1,0 +1,30 @@
+.mentors-page {
+    padding: 20px;
+  }
+  
+  .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .mentor-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 9px;
+    width: 151px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 177px;
+  }
+  
+  .mentor-card h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .mentor-card p {
+    margin: 5px 0;
+  }
+  div{
+    margin-bottom: 3px;
+  }
